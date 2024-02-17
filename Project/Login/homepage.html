@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>SVAG HOME PAGE</title>
+  <link rel="stylesheet" href="homepage.css">
+  <style>
+    .card {
+     
+      width: var(--card-width);
+    height: var(--card-height);
+    position: relative;
+    display: flex;
+    justify-content: left;
+    align-items: flex-end;
+    padding: 0 36px;
+    perspective: 2500px;
+    margin: 0 50px;
+    }
+    
+    .card:hover {
+      box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    }
+    
+    .container {
+      padding: 2px 16px;
+      text-align: center;
+    }
+    .img{
+        background-color: black;
+    }
+    </style>
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<header>
+    <a href="#" class="logo">SVAG Gaming</a>
+    <ul>
+        <li><a href="http://127.0.0.1:5500/Login/homepage.html">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Work</a></li>
+        <li><a href="http://127.0.0.1:5500/Login/login.html">Log Out</a></li>
+    </ul>
+</header>
+<div class="sec" id="sec">
+</div><br><br>
+<div class="card">
+    <a href="http://127.0.0.1:5500/Login/Home/home.html"><img src="games-design-fluffy-name.png" alt=""></a>
+    <div class="container">
+    </div>
+    <div class="card">
+        <a href="http://127.0.0.1:5500/Login/Home/cghome.html"><img src="W__1_-removebg-preview.png" alt=""></a>
+        <div class="container">
+        </div>
+      </div>
+  </div>
+  <script  src="homepage.js"></script>
+</body>
+</html>
